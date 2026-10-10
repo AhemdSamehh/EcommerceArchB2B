@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Basket.Application.Settings
+{
+    public class GrpcSettings
+    {
+        public string DiscountUrl { get; set; } = string.Empty;
+
+    }
+}
